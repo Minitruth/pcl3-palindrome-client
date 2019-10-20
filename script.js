@@ -13,6 +13,7 @@ $(function () {
 
         if (isPalindrome(inputWord)) {
             // TODO
+            //this is a test
         } else {
             // TODO
         }
