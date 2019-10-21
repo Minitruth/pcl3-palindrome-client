@@ -12,10 +12,14 @@ $(function () {
         $("#query").text(inputWord);
 
         if (isPalindrome(inputWord)) {
-            // TODO
-            //this is a test
+            // show result if input is palindrome and add a css class
+            $("#result").html("is a palindrome!");
+            $("#palindrome-message").removeClass("message-red").addClass("message-green");
+
         } else {
-            // TODO
+            // show result if input is not palindrome and add a css class
+            $("#result").html("is not a palindrome.");
+            $("#palindrome-message").addClass("message-red");
         }
 
         $("#palindrome-message").show();
