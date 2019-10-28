@@ -41,3 +41,59 @@ h1 {
     background-color: #f8d7da;
     border-color: #f5c6cb;
 }
+
+/*#container {*/
+/*    border: 5px solid #b8daff;container*/
+/*    padding: 30px;*/
+/*    letter-spacing: 8px;*/
+/*    color: #004085;*/
+/*    background-color: #cce5ff;*/
+/*}*/
+
+/*#container.blue {*/
+/*    border: 5px solid #b8daff;*/
+/*    padding: 30px;*/
+/*    letter-spacing: 8px;*/
+/*    color: #004085;*/
+/*    background-color: #cce5ff;*/
+/*}*/
+
+/*#container.red {*/
+/*    border: 5px solid #f5c6cb;*/
+/*    padding: 30px;*/
+/*    letter-spacing: 8px;*/
+/*    color: #721c24;*/
+/*    background-color: #f8d7da;*/
+/*}*/
+
+#container span[id^="c"] {
+    border: 5px solid #b8daff;
+    padding: 30px;
+    letter-spacing: 8px;
+    color: #004085;
+    background-color: #cce5ff;
+}
+
+#container span[id^="d"] {
+    border: 5px solid #f5c6cb;
+    padding: 30px;
+    letter-spacing: 8px;
+    color: #721c24;
+    background-color: #f8d7da;
+}
+
+/*#container.blue span {*/
+/*    border: 5px solid #b8daff;*/
+/*    padding: 30px;*/
+/*    letter-spacing: 8px;*/
+/*    color: #004085;*/
+/*    background-color: #cce5ff;*/
+/*}*/
+
+/*#container.red span {*/
+/*    border: 5px solid #f5c6cb;*/
+/*    padding: 30px;*/
+/*    letter-spacing: 8px;*/
+/*    color: #721c24;*/
+/*    background-color: #f8d7da;*/
+/*}*/
