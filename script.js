@@ -6,6 +6,7 @@ $(function () {
         if (!inputWord.trim()) {
             // Input is empty
             $("#palindrome-message").hide();
+            $("#container").hide();
             return
         }
 
@@ -29,19 +30,23 @@ $(function () {
         $("#palindrome-message").show();
 
 
+        // Add function to show visualize input
+        // TODO: 1. cursor hover behavior 2. adjust horizon display
+
         $("#container").show();
         $("#container").empty();
 
         let word_list = inputWord.toLocaleLowerCase().split('');
         $.each(word_list, function (index, value) {
-            //TODO
-            if (value === word_list[word_list.length - 1]) {
+            //
+            if (value === word_list[word_list.length - index - 1]) {
                 $("#container").append("<span id='c" + index + "'>" + value + "</span>");
             }
             else {
                 $("#container").append("<span id='d" + index + "'>" + value + "</span>");
             }
         });
+
     });
 });
 
